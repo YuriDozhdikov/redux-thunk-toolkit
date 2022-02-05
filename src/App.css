@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+input {
+  border: 1px solid blue;
+  padding: 2px 5px;
+}
+
+button {
+  margin-left: 10px;
+  color: blue;
+  border: 1px solid blue;
+  background-color: #fff;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+  font-style: italic;
+  color: grey;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
